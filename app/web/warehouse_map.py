@@ -15,7 +15,7 @@ import pandas as pd
 import plotly.express as px
 import streamlit as st
 
-from app.theme import Palette
+from app.web import colors as Palette
 from app.analytics.common import parse_date
 from app.analytics.warehouse_map import build_activity_tree, skus_at_location, LEVELS
 from app.web.analysis import _build_presets, _load_orders_and_master

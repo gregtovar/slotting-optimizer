@@ -9,7 +9,7 @@ module's chart support works on both front ends for free.
 
 import plotly.graph_objects as go
 
-from app.theme import Palette
+from app.web import colors as Palette
 
 AXIS_GRID_COLOR = Palette.BORDER
 
